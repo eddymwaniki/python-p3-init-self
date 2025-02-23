@@ -10,6 +10,7 @@ class Dog:
 dog1 = Dog("Scooby")   
 dog2 = Dog("Jewel", "Dalmatian")
 dog3 = Dog("Bolt", "German Shepherd")
+dog4 = Dog("Odie", "Long-eared beagle")
 
 print(dog1.breed)
 print(dog2.breed)
@@ -17,3 +18,4 @@ print(dog3.name)
 dog1.introduction()
 dog2.introduction()
 dog3.introduction()
+dog4.introduction()
